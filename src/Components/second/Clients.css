@@ -1,0 +1,98 @@
+.clients-container{
+    color:white;
+    margin: 0px 100px;
+    /* border: #E3B748 2px solid; */
+    margin-top: 50px;
+}
+.client-row1{
+    display: flex;
+    /* border: 2px red solid; */
+    justify-content: space-between;
+}
+.client-r1-c1{
+    /* border: 2px rgb(237, 233, 233) solid; */
+    color: var(--pure-white, #FFF);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%; /* 77.232px */
+
+}
+.client-r1-c2 button
+{
+    width: 90.612px;
+    height: 90.612px;
+    border-radius: 50%;
+    background:#E3B748;
+    border: none;
+    margin: 10px;
+
+}
+
+.client-row2{
+    padding-top: 50px;
+    display: flex;
+    /* border: 2px red solid; */
+    justify-content: space-between;
+}
+.client-card{
+    width: 359px;
+    height: 368px;
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.10);
+    background: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+
+}
+.client-card:hover{
+    background: #2E2E2E;
+}
+.client-img{
+    width: 105px;
+    height: 102px;
+    border-radius: 105px;
+    background-repeat: no-repeat;
+    /* border: 1px red dashed; */
+    /* background: url(<path-to-image>), lightgray -2.21px 0px / 102.105% 105.05% no-repeat; */
+
+}
+.cim1{
+    background-image: url(../img/t1.png);
+    background-size: contain;
+}
+.cim2{
+    background-image: url(../img/t2.png);
+    background-size: contain;
+}
+.cim3{
+    background-image: url(../img/t3.png);
+    background-size: contain;
+}
+.client-p1{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+}
+.client-p2{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+.client-p3{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%; /* 22.753px */
+}

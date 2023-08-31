@@ -1,0 +1,92 @@
+.team-container{
+    color: white;
+    /* border: 2px green solid; */
+    margin: 100px;
+}
+.team-head p{
+    color: var(--pure-white, #FFF);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%; /* 77.232px */
+    text-align: center;
+}
+.teams{
+    /* border: 2px blue solid; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.team-members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px red solid; */
+    width: 344px;
+    height: 109px;
+    border-radius: 14px;
+    margin:10px;
+    /* background: #E3B748; */
+
+}
+.team-members:hover{
+    background: #e3b748d4
+}
+.bac-coler{
+     background: #e3b748d4;
+}
+.memb-img{
+    width: 68px;
+    height: 68px;
+    border-radius: 68px;
+    padding: 20px;
+    /* border: 1px red dashed; */
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+.mim1{
+    background-image: url(../img/c1.png); 
+    background-size: contain;
+}
+.mim2{
+    background-image: url(../img/c2.png); 
+    background-size: contain;
+}
+.mim3{
+    background-image: url(../img/c3.png); 
+    background-size: contain;
+}
+.mim4{
+    background-image: url(../img/c4.png); 
+    background-size: contain;
+}
+.mim5{
+    background-image: url(../img/c5.png); 
+    background-size: contain;
+}
+.mim6{
+    background-image: url(../img/c6.png); 
+    background-size: contain;
+}
+
+.memb-info{
+    padding: 30px;
+}
+.memb-name{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+}
+.memb-case{
+    color: var(--pure-white, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+opacity: 0.3;
+}

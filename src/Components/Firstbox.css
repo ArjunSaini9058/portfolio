@@ -1,0 +1,107 @@
+.Fisrt-Container{
+background-color: #111;
+/* height: 990px */
+}
+.row1{
+    padding-top: 30px;
+}
+.row2{
+    display: flex;
+    /* border: 2px solid yellow; */
+    padding: 100px 0px;
+    justify-content: space-around;
+}
+.col1-row1{
+width: 571px;
+}
+.tag1{
+    color: var(--pure-white, #FFF);
+    font-family: Inter;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 147.523%; /* 97.365px */
+}
+.tag2{
+    color: var(--pure-white, #FFF);
+    font-family: Inter;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 147.523%;
+}
+.col1-row2{
+    width: 560px;
+    height: 99px;
+}
+.tag3{
+    color: var(--pure-white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; /* 29.254px */
+    opacity: 0.3;
+}
+.col1-row3{
+    width: 438px;
+    height: 74px;
+    border-radius: 43px;
+    /* opacity: 0.1; */
+    background: var(--pure-white, #ffffff22);
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.col1-row3 svg{
+    width: 22px;
+    height: 22px;
+    margin-bottom: -6px;
+    justify-content: center;
+    align-items: center;
+    color: var(--pure-white, #FFF);
+    
+    
+}
+.col1-row3 input{
+    color: var(--pure-white, #FFF);
+    font-family: Inter;
+    background: transparent;
+    border:none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%; 
+    outline: none;
+    
+}
+.col1-row3 button{
+    width: 137px;
+    height: 62px;
+    border-radius: 43px;
+    border: none;
+    background: #E3B748;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.523%; /* 26.004px */
+}
+
+.col1-row3 button:hover{
+    background: #e7a806;
+}
+
+.col2{
+    width: 500px;
+    height: 515px;
+    border-radius: 55px;
+    background-image: url(./img/main.png);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* border: 2px red solid; */
+}
